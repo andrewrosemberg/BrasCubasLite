@@ -28,8 +28,8 @@ Both are available on the [Releases page](https://github.com/andrewrosemberg/Bra
 5. Click **Add extension** in the confirmation dialog.
 
 > **Blocked by Chrome?** Chrome may warn about extensions installed outside the Web Store.
-> If the extension is removed automatically, contact support via the
-> [issues page](https://github.com/andrewrosemberg/BrasCubasLite/issues).
+> If the extension is removed automatically, try the unpacked method instead:
+> rename the `.crx` to `.zip`, extract it, then click **Load unpacked** and select the extracted folder.
 
 ---
 
@@ -91,7 +91,7 @@ Open the **⚙ Local Viewer** panel in the Feed Builder's left rail for:
 | "Companion app is not installed" | Install the `.pkg` from the releases page, then reload the extension |
 | "Could not reach local Focus Player" | Click **Test Connection** in the ⚙ panel — if it fails, try restarting Chrome |
 | macOS blocked the installer | Right-click → Open → Open |
-| Extension removed by Chrome | [Open an issue](https://github.com/andrewrosemberg/BrasCubasLite/issues) |
+| Extension removed by Chrome | Rename `.crx` → `.zip`, extract, Load unpacked |
 
 ---
 
